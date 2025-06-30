@@ -39,6 +39,7 @@ const [hovered, setHovered] = useState(null);
     <MonsterStage texture={"textures/dragon.png"} color="#62762b" name="Deamon" position-x={3.1} rotation-y={-Math.PI/8} active={active} setActive={setActive} hovered={hovered} setHovered={setHovered}>
       <Orc_Skull scale={0.7} position-y={-1} hovered={ hovered === "Deamon"}/>
     </MonsterStage>
+    <Text font="fonts/DelaGothicOne-Regular.ttf" fontSize={0.1} position={[0, 2.1, 0.06]} anchorY={"top"}>Sanjula<meshBasicMaterial color="#6f03fc" toneMapped={false}/></Text>
     </>
   );
 };
